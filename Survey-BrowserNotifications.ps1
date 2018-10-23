@@ -18,9 +18,10 @@
         The browser/s to target. Options are Firefox, Chrome or All.
 
     .NOTES
-        Name:   			Survey-BrowserNotifications
-        Author: 			keyboardcrunch
+        Name: Survey-BrowserNotifications
+        Author: keyboardcrunch
         Date Created: 19/10/18
+        
     .EXAMPLE
         Survey-BrowserNotifications -Computername $(Get-Content .\Data\ChromeInstalled.txt) -Browser Chrome -Throttle 25
 
